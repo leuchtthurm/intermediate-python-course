@@ -16,6 +16,9 @@ class MainWindow(QMainWindow):
 
     self.setCentralWidget(label)
 
+    toolbar = QToolBar('Menüleiste')
+    self.addToolBar(toolbar)
+
 def wurf():
   roll = random.randint(1,6)
 
